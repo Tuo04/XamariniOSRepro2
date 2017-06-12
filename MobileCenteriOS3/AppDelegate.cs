@@ -30,6 +30,9 @@ namespace MobileCenteriOS3
 			Xamarin.Calabash.Start();
 #endif
 
+            MobileCenter.Start("0b466cec-e016-4e27-898a-ea2f25e3295e",
+                   typeof(Analytics), typeof(Crashes));
+
             return true;
         }
 
