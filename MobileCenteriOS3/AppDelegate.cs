@@ -29,8 +29,8 @@ namespace MobileCenteriOS3
 #if ENABLE_TEST_CLOUD
 			Xamarin.Calabash.Start();
 #endif
-
-            MobileCenter.Start("0b466cec-e016-4e27-898a-ea2f25e3295e",
+            MobileCenter.SetLogUrl("https://in-staging-south-centralus.staging.avalanch.es");
+            MobileCenter.Start("486c9f32-2175-4377-bbdf-0ce1e09fe754",
                    typeof(Analytics), typeof(Crashes));
 
             return true;

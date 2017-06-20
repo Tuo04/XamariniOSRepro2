@@ -58,5 +58,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MobileCenteriOS3\MobileCenteriOS3.csproj">
+      <Project>{dae9e55d-2552-4faf-8e75-9ae05e28d13f}</Project>
+      <Name>MobileCenteriOS3</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
