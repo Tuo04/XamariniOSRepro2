@@ -30,7 +30,7 @@ namespace iOSXamarinBitbucket
 			Xamarin.Calabash.Start();
 #endif
 
-			MobileCenter.Start("355bd113-a59f-499f-8c79-968293064eed",
+			MobileCenter.Start("cd1db75d-291f-4df0-af75-17d413916fcb",
 				   typeof(Analytics), typeof(Crashes));
             
             return true;
