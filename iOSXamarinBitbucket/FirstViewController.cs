@@ -1,12 +1,13 @@
 ﻿using System;
 
 using UIKit;
+using Microsoft.Azure.Mobile.Crashes;
 
-namespace MobileCenteriOS3
+namespace iOSXamarinBitbucket
 {
-    public partial class ViewController : UIViewController
+    public partial class FirstViewController : UIViewController
     {
-        protected ViewController(IntPtr handle) : base(handle)
+        protected FirstViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
         }
@@ -21,6 +22,11 @@ namespace MobileCenteriOS3
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+        }
+
+        partial void UIButton5_TouchUpInside(UIButton sender)
+        {
+            Crashes.GenerateTestCrash();
         }
     }
 }

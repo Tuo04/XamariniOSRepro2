@@ -5,7 +5,7 @@ using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
 
 
-namespace MobileCenteriOS3
+namespace iOSXamarinBitbucket
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the
     // User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
@@ -29,10 +29,10 @@ namespace MobileCenteriOS3
 #if ENABLE_TEST_CLOUD
 			Xamarin.Calabash.Start();
 #endif
-            MobileCenter.SetLogUrl("https://in-staging-south-centralus.staging.avalanch.es");
-            MobileCenter.Start("486c9f32-2175-4377-bbdf-0ce1e09fe754",
-                   typeof(Analytics), typeof(Crashes));
 
+			MobileCenter.Start("355bd113-a59f-499f-8c79-968293064eed",
+				   typeof(Analytics), typeof(Crashes));
+            
             return true;
         }
 

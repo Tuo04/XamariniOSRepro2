@@ -5,10 +5,10 @@
 //
 using Foundation;
 
-namespace MobileCenteriOS3
+namespace iOSXamarinBitbucket
 {
-    [Register("ViewController")]
-    partial class ViewController
+    [Register("SecondViewController")]
+    partial class SecondViewController
     {
         void ReleaseDesignerOutlets()
         {

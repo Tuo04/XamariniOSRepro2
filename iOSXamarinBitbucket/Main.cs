@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace MobileCenteriOS3
+namespace iOSXamarinBitbucket
 {
     public class Application
     {
