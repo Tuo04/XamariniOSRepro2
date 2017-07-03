@@ -115,7 +115,4 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Second" width="30" height="30"/>
-    </resources>
 </document>
